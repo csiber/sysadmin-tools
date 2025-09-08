@@ -1,0 +1,7 @@
+# Sysadmin tools cron jobs
+# minute hour day month weekday  command
+5   2   *   *   *   . $HOME/.env && /path/to/sysadmin-tools/backup.sh
+*/5 *   *   *   *   . $HOME/.env && /path/to/sysadmin-tools/uptime-checker.sh
+*/30 *  *   *   *   . $HOME/.env && /path/to/sysadmin-tools/cloudflare-ddns.sh
+15  3   *   *   0   /path/to/sysadmin-tools/docker-cleanup.sh --yes
+*/30 *  *   *   *   /path/to/sysadmin-tools/monitor.sh
