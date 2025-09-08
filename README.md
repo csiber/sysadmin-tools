@@ -56,4 +56,18 @@ That mindset is reflected in the way I write and use these tools: **reliable, mi
 ---
 
 ## 📂 Repository Structure
+sysadmin-tools/
+├─ backup.sh
+├─ docker-cleanup.sh
+├─ uptime-checker.sh
+├─ cloudflare-ddns.sh
+├─ monitor.sh
+└─ README.md
 
+
+---
+
+## 📜 License
+
+Released under the **MIT License** — use at your own risk.  
+These tools are shared as-is, reflecting my hands-on sysadmin experience.
